@@ -1,0 +1,9 @@
+class Addition
+{
+public static void main(String args[])
+{
+int a=3, b=5, c=3;
+int sum=a+b+c;
+System.out.print(sum);
+}
+}
