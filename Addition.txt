@@ -2,8 +2,13 @@ class Addition
 {
 public static void main(String args[])
 {
-int a=3, b=5, c=3;
+int a,b,c;
+System.out.println("Enter the intergers");
+Scanner sc=new Scanner(System.in);
+a=sc.nextInt();
+b=sc.nextInt();
+c=sc.nextInt();
 int sum=a+b+c;
-System.out.println(sum);
+System.out.println("Sum of integers"=sum);
 }
 }
